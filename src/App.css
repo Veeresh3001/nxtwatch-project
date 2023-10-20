@@ -1,38 +1,117 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.profile-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 0px 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px 3px #eeebeb;
+}
+@media screen and (max-width: 768px){
+  .profile-img{
+    display: none;
+  }
+}
+
+.video{
+  height: 300px;
+  width: 100%;
+}
+
+.profile-img:hover{
+  box-shadow: 0px 0px 2px 5px #92b3b9;
+}
+
+@media screen and (max-width: 768px){
+  .contact-us{
+    display: none;
+  }
+}
+.trending-p1{
+  font-size: 15px;
+}
+.trending-p2{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px){
+  .gaming-item{
+    width: 30%;
+  }
+}
+
+.gaming-p1{
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px;
+}
+.no-saved-img{
+  width: 400px;
+}
+.no-saved-h1{
+  font-size: 25px;
+}
+.no-saved-p{
+  font-size: 20px;
+  margin: 0px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 768px){
+  .no-saved-img{
+    width: 100px;
+  }
+  .no-saved-h1{
+    font-size: 20px;
+  }
+  .no-saved-p{
+    font-size: 16px;
+    width: 60%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gaming-p2{
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px){
+  .gaming-p1{
+    font-size: 8px;
+    font-weight: 700;
+    margin: 0px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .gaming-p2{
+    margin: 0px;
+    font-size: 8px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .trending-p1{
+    font-size: 12px;
+    margin: 0px;
+  }
+  .trending-p2{
+    font-size: 16px;
+    margin: 0px;
   }
 }
