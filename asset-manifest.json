@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/nxtwatch-project/static/css/main.82a2815b.css",
+    "main.js": "/nxtwatch-project/static/js/main.d24d1447.js",
+    "static/media/veera.jpg": "/nxtwatch-project/static/media/veera.946a3529d6b4419bf594.jpg",
+    "index.html": "/nxtwatch-project/index.html",
+    "main.82a2815b.css.map": "/nxtwatch-project/static/css/main.82a2815b.css.map",
+    "main.d24d1447.js.map": "/nxtwatch-project/static/js/main.d24d1447.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82a2815b.css",
+    "static/js/main.d24d1447.js"
+  ]
+}
